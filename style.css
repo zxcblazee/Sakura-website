@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-flowers-cherry-blossom-spring-softly-blurred-background_258360-175.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0;
+    padding: 40px 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+}
+input[type="text"]:focus {
+    box-shadow: 0 0 5px cyan;
+    outline: none;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  
+}
+
+
+table {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center; 
+}
